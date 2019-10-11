@@ -5,8 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "start": "node run server.js"
+    "start": "node run server.js",
+    "postinstall": "npm install express && npm install --save connect-history-api-fallback"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.3",
